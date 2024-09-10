@@ -1,0 +1,293 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Unfolding
+vand_n
+Z1 !s100 gY@ZJOO1GMHQL`Tg1oEhH3
+Z2 IKPF4AZ2J;I;KJ]JgQZ<fR3
+Z3 VE0lSb07Fm@mI`Ahh;JF`W2
+Z4 dF:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester
+Z5 w1708161059
+Z6 8F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\component_library.v
+Z7 FF:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\component_library.v
+L0 39
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1708337010.230000
+Z10 !s107 F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\component_library.v|
+Z11 !s90 -reportprogress|300|-work|work|F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\component_library.v|
+Z12 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vbufg
+Z13 !s100 ?33W0:hjJ9Y6=J7JDKF5L0
+Z14 I7lQ>:PGX4IQ7oaj^VQlg?2
+Z15 VXYEAjK?BPFf0H>2]`UeVC1
+R4
+R5
+R6
+R7
+L0 9
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vCPU_net
+Z16 !s100 lo>ZN1blU:9gd08dL0b0c2
+Z17 IPZCzD]5F7j79T`fHgSD4m0
+Z18 VDGjTzFeC2k7QEjd[l611<0
+R4
+Z19 w1706951681
+Z20 8F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/CPU_net.v
+Z21 FF:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/CPU_net.v
+L0 7
+R8
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/CPU_net.v|
+R12
+Z23 n@c@p@u_net
+Z24 !s108 1708337011.566000
+Z25 !s107 F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/CPU_net.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff
+Z26 !s100 2K1h46P0E`fO;W_l7M3Mn2
+Z27 I^d;;mUQ=Z^hHbH8=LdG7e0
+Z28 Vb5ERA@o1oWez]fMoREHSQ0
+R4
+R5
+R6
+R7
+Z29 L0 255
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vfanout_n
+Z30 !s100 z^NGJoJQH?ChMOY;Mk=Mc3
+Z31 I049;YWz9B<:iMHm0bHdWl2
+Z32 Va1T;cY=65mM]8z@@``<5`0
+R4
+R5
+R6
+R7
+Z33 L0 195
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnand_n
+Z34 !s100 OT^B7Eznaa_kSo5gBVhW_2
+Z35 IQ02=HSPCK^oYa<cHjbnYj0
+Z36 VgOI?ha0b:e;_bR8Q?z;_h1
+R4
+R5
+R6
+R7
+L0 91
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnor_n
+Z37 !s100 olcRzYYi^B?bbZ[fda_ga0
+Z38 IHk>5bjoSiTGJCaZlGT]eS1
+Z39 VDV;i?h=HW69j3Njf=@J;c3
+R4
+R5
+R6
+R7
+Z40 L0 117
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnotg
+Z41 !s100 WQkUcP_n]O]TH5T>0O?Jn2
+Z42 Ig9Z@fiRG:Yh?bC76nIn7z1
+Z43 V40k:GVzSQVV:ZRf93nEig2
+R4
+R5
+R6
+R7
+L0 24
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vor_n
+Z44 !s100 0BI<H219gK^fc?_D77TgQ2
+Z45 IT5Z97oNok]OfWT=WOCb^X0
+Z46 VV_S5=dU:O[i^zd2LZ0mE90
+R4
+R5
+R6
+R7
+L0 65
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vpin
+Z47 !s100 :8M8_7H`o]VC`0lH;FR?_0
+Z48 IXMVNV`1^l0n@NDoF>T3YQ1
+Z49 Vn?ii:H4N@G>QR?gQ@H1T93
+R4
+R5
+R6
+R7
+Z50 L0 216
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vpout
+Z51 !s100 3hMKGo3?a[2DVkN80V^[`2
+Z52 Ijf;gZE_hNaAoR[HSNTfbd2
+Z53 V;b[lj6VALY1oP0kE427zS1
+R4
+R5
+R6
+R7
+Z54 L0 237
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vTester
+Z55 !s100 J__ek:Ja[oIXU11[gJ0X91
+Z56 IS[9C5]hYVhd>9:DbZdbQg1
+Z57 VFVELc:19l00MB_Lnl=E^50
+R4
+Z58 w1708161601
+Z59 8F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\Tester.v
+Z60 FF:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\Tester.v
+L0 2
+R8
+r1
+31
+Z61 !s90 -reportprogress|300|-work|work|F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\Tester.v|
+R12
+Z62 n@tester
+!i10b 1
+!s85 0
+Z63 !s108 1708337011.769000
+Z64 !s107 F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Scan Insertion & Virtual Tester\Tester.v|
+!s101 -O0
+vTestInsertion
+!i10b 1
+Z65 !s100 PzO2Wcb5lG[Bzc[Ll<FUh0
+Z66 Izba5j0FdmZ=k;UA>N^?`N2
+Z67 VbNmP=ja6`<;b1T>?n:miJ2
+R4
+Z68 w1706712844
+Z69 8F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/TestInsertion.v
+Z70 FF:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/TestInsertion.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1708337011.934000
+!s107 F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/TestInsertion.v|
+Z71 !s90 -reportprogress|300|-work|work|F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Scan Insertion & Virtual Tester/TestInsertion.v|
+!s101 -O0
+R12
+Z72 n@test@insertion
+vxnor_n
+Z73 !s100 IoK_iEk=DG9]Ci6[5lejL2
+Z74 Ia>gKVzeHb<Ylm_9N[Q0_b0
+Z75 V_h>kV[<BMORTSW@XaQnm_1
+R4
+R5
+R6
+R7
+Z76 L0 169
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vxor_n
+Z77 !s100 jG]5UOM=aQS>7l=bV9oXS3
+Z78 IoLV0I@h]lF5PTfFo_X0;A0
+Z79 Vkn>Y[IK><W=4Ee6d^[D@d0
+R4
+R5
+R6
+R7
+Z80 L0 143
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0

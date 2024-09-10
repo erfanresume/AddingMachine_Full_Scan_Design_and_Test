@@ -1,0 +1,315 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: CPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU"
+Output Format                      : NGC
+Target Device                      : CoolRunner2 CPLDs
+
+---- Source Options
+Top Module Name                    : CPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "PC.v" in library work
+Compiling verilog file "IR.v" in library work
+Module <PC> compiled
+Compiling verilog file "ALU.v" in library work
+Module <IR> compiled
+Compiling verilog file "AC.v" in library work
+Module <ALU> compiled
+Compiling verilog file "Data_Path.v" in library work
+Module <AC> compiled
+Compiling verilog file "Controller.v" in library work
+Module <Data_Path> compiled
+Compiling verilog file "CPU.v" in library work
+Module <Controller> compiled
+Module <CPU> compiled
+No errors in compilation
+Analysis of file <"CPU.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <CPU> in library <work>.
+
+Analyzing hierarchy for module <Controller> in library <work>.
+
+Analyzing hierarchy for module <Data_Path> in library <work>.
+
+Analyzing hierarchy for module <IR> in library <work>.
+
+Analyzing hierarchy for module <PC> in library <work>.
+
+Analyzing hierarchy for module <AC> in library <work>.
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <CPU>.
+Module <CPU> is correct for synthesis.
+ 
+Analyzing module <Controller> in library <work>.
+Module <Controller> is correct for synthesis.
+ 
+Analyzing module <Data_Path> in library <work>.
+Module <Data_Path> is correct for synthesis.
+ 
+Analyzing module <IR> in library <work>.
+Module <IR> is correct for synthesis.
+ 
+Analyzing module <PC> in library <work>.
+Module <PC> is correct for synthesis.
+ 
+Analyzing module <AC> in library <work>.
+Module <AC> is correct for synthesis.
+ 
+Analyzing module <ALU> in library <work>.
+Module <ALU> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Controller>.
+    Related source file is "Controller.v".
+    Found finite state machine <FSM_0> for signal <present_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Controller> synthesized.
+
+
+Synthesizing Unit <IR>.
+    Related source file is "IR.v".
+    Found 8-bit register for signal <da>.
+Unit <IR> synthesized.
+
+
+Synthesizing Unit <PC>.
+    Related source file is "PC.v".
+    Found 6-bit adder for signal <ns$addsub0000> created at line 22.
+    Found 6-bit register for signal <pc>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <PC> synthesized.
+
+
+Synthesizing Unit <AC>.
+    Related source file is "AC.v".
+    Found 8-bit register for signal <dr>.
+Unit <AC> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "ALU.v".
+    Found 8-bit adder for signal <res$addsub0000> created at line 10.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <Data_Path>.
+    Related source file is "Data_Path.v".
+Unit <Data_Path> synthesized.
+
+
+Synthesizing Unit <CPU>.
+    Related source file is "CPU.v".
+Unit <CPU> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 6-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 3
+ 6-bit register                                        : 1
+ 8-bit register                                        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <cu/present_state/FSM> on signal <present_state[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0001
+ 01    | 0010
+ 10    | 0100
+ 11    | 1000
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 6-bit adder                                           : 1
+ 8-bit adder                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CPU> ...
+
+Optimizing unit <Controller> ...
+
+Optimizing unit <IR> ...
+
+Optimizing unit <PC> ...
+
+Optimizing unit <AC> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <Data_Path> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CPU.ngr
+Top Level Output File Name         : CPU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : CoolRunner2 CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 246
+#      AND2                        : 116
+#      AND3                        : 3
+#      INV                         : 56
+#      OR2                         : 53
+#      XOR2                        : 18
+# FlipFlops/Latches                : 26
+#      FD                          : 26
+# IO Buffers                       : 26
+#      IBUF                        : 10
+#      OBUF                        : 16
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.15 secs
+ 
+--> 
+
+Total memory usage is 228920 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

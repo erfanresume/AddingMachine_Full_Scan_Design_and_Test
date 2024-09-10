@@ -1,0 +1,293 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\installed program\ModelSim\modelsim_ase\win32aloem
+vand_n
+Z1 !s100 >@a3]S;[n4ll8<GSViJCW2
+Z2 Ig9ZAfA6GPJV];RzR95IAg0
+Z3 VE0lSb07Fm@mI`Ahh;JF`W2
+Z4 dF:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Unfolding
+Z5 w1706518647
+Z6 8F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/component_library.v
+Z7 FF:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/component_library.v
+L0 39
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1708336688.185000
+Z10 !s107 F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/component_library.v|
+Z11 !s90 -reportprogress|300|-work|work|F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/component_library.v|
+Z12 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vbufg
+Z13 !s100 TmZJTEVf2B>AAnJRk=eA52
+Z14 I:l=N]S<Fl]MP4eA@h=cCD0
+Z15 VXYEAjK?BPFf0H>2]`UeVC1
+R4
+R5
+R6
+R7
+L0 9
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vCPU_net
+Z16 !s100 k3W_maaX^XC<i^g`@imI30
+Z17 Iklk4a_YMM[fNO?FWWkK@C1
+Z18 VR]d>9coIDJIm3D_S=iH>:3
+R4
+Z19 w1706967128
+Z20 8F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/CPU_net.v
+Z21 FF:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/CPU_net.v
+L0 7
+R8
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/CPU_net.v|
+R12
+Z23 n@c@p@u_net
+Z24 !s108 1708336689.586000
+Z25 !s107 F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/CPU_net.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdff
+Z26 !s100 Jf`KWWN5BMJ@11]VlIVdC0
+Z27 Ik=omGoI=abj@;zI2mF0n`1
+Z28 Vb5ERA@o1oWez]fMoREHSQ0
+R4
+R5
+R6
+R7
+Z29 L0 255
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vfanout_n
+Z30 !s100 @AYXRh5DH8FB8hKE:cj7z3
+Z31 INke]UB;GJmb:EIL^XA9040
+Z32 Va1T;cY=65mM]8z@@``<5`0
+R4
+R5
+R6
+R7
+Z33 L0 195
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnand_n
+Z34 !s100 =Kjf0b4^91SN1SOJni[d`0
+Z35 IKcOPlF@eSSWkhl`636<=m3
+Z36 VgOI?ha0b:e;_bR8Q?z;_h1
+R4
+R5
+R6
+R7
+L0 91
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnor_n
+Z37 !s100 RDC1GGU<GYznD:<GJEjfE2
+Z38 IoM_lF@5FC^L^a[hUJ76n?1
+Z39 VDV;i?h=HW69j3Njf=@J;c3
+R4
+R5
+R6
+R7
+Z40 L0 117
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnotg
+Z41 !s100 2=C1MHI6=jZ4i3S3CJL6A0
+Z42 IT3Id:AEM`]:Wh<j;X^GbH1
+Z43 V40k:GVzSQVV:ZRf93nEig2
+R4
+R5
+R6
+R7
+L0 24
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vor_n
+Z44 !s100 YmNQ^LnL6IoFz?NYF05OY0
+Z45 IaY32=HbR9l@Nbh?^d@m4W2
+Z46 VV_S5=dU:O[i^zd2LZ0mE90
+R4
+R5
+R6
+R7
+L0 65
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vpin
+Z47 !s100 m=eWKflai5LZ@=8EcJ:<I2
+Z48 IB:E=>6TQ;Fb7ZE4IFlB6Q3
+Z49 Vn?ii:H4N@G>QR?gQ@H1T93
+R4
+R5
+R6
+R7
+Z50 L0 216
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vpout
+Z51 !s100 ZDd1]_fi9lbG>Q39zO];Z3
+Z52 I0R2gfR`L^MV5z9l=;QSFW2
+Z53 V;b[lj6VALY1oP0kE427zS1
+R4
+R5
+R6
+R7
+Z54 L0 237
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vRandomTest
+Z55 Il1dEbU9:?meBz===zF^6]2
+Z56 VPoGAbDkCDaZi:DJ=NodA52
+R4
+Z57 w1707374569
+Z58 8F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/RandomTest.v
+Z59 FF:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/RandomTest.v
+L0 2
+R8
+r1
+31
+R12
+Z60 n@random@test
+Z61 !s100 =T7_ZBRXfhD0fW3Ugn3i22
+Z62 !s108 1707551831.642000
+Z63 !s107 F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/RandomTest.v|
+Z64 !s90 -reportprogress|300|-work|work|F:/installed program/ModelSim/modelsim_ase/win32aloem/Projects/Full Scan Design and Test/Unfolding/RandomTest.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTester
+!i10b 1
+!s100 ]hVEaD?7?bhT;YkNcnfJM2
+Ib;Az;QMU867BCJXg?mBY>2
+V9h<T[bmOG;RnFM:in;]iY0
+R4
+w1708333552
+8F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Unfolding\Tester.v
+FF:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Unfolding\Tester.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1708336690.055000
+!s107 F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Unfolding\Tester.v|
+!s90 -reportprogress|300|-work|work|F:\installed program\ModelSim\modelsim_ase\win32aloem\Projects\Full Scan Design and Test\Unfolding\Tester.v|
+!s101 -O0
+R12
+Z65 n@tester
+vxnor_n
+Z66 !s100 8miP2nHME0e4>`el1kHb33
+Z67 ILGcKa9z[JjIo_X_P170=W1
+Z68 V_h>kV[<BMORTSW@XaQnm_1
+R4
+R5
+R6
+R7
+Z69 L0 169
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vxor_n
+Z70 !s100 ;o=O0?Dzi^6T:YCUjBMkQ3
+Z71 IDWRLgLeb3BLiimLHFIUQc2
+Z72 Vkn>Y[IK><W=4Ee6d^[D@d0
+R4
+R5
+R6
+R7
+Z73 L0 143
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
